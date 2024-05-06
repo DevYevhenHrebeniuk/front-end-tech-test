@@ -1,6 +1,5 @@
 import ImageBlock from "./ImageBlock";
 import Accordion from "./Accordion/Accordion";
-import AccordionItems from "@/app/models/Accordion";
 
 const VisionSection = () => {
     return (
@@ -16,7 +15,7 @@ const VisionSection = () => {
                     
                 </div>
                 <div className="w-[552px] shrink-0">
-                    <Accordion data={AccordionItems}/>
+                    <Accordion />
                 </div>
             </div>
         </section>
