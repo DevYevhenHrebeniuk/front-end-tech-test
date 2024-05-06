@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mw {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #AB23FF;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+body {
+    background-color: #000;
+}
+
+footer svg {
+    transition: all .3s ease-in-out;
+}
+
+footer svg:hover {
+    fill: #3D8BFF;
+}
+
+footer svg:hover circle {
+    stroke: #3D8BFF;
+}
+
+.footer-logo svg:hover path {
+    fill: #3D8BFF;
+}
+
